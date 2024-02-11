@@ -1,0 +1,27 @@
+\section{Dataset}
+\label{sec:dataset}
+The data set we use for training our models is the Fashion MNIST, which was aggregated by Zalando, a clothing e-commerce website. Our dataset contains 70000 unique images of clothing, each represented as a 28x28 matrix containing a color value, represented in by a grey-scale value. Each of these color values is a feature in our model, which gives us 784 features in total.
+
+ Each image also gets assigned a "label" value in the range of 0 to 9. Each number corresponds to the clothing category of the article shown in the image. These categories and their corresponding number values can be seen in table 1. Our target is the label, as our goal is to predict which category an article of clothing belongs to which category given an image. The number of images corresponding to each unique label is identical, so there are 7000 images for each of the 10 categories.
+
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Number & Catagory\\
+        \hline
+        0 & T-shirt/top\\
+        1 & Trouser\\
+        2 & Pullover\\
+        3 & Dress\\
+        4 & Coat\\
+        5 & Sandal\\
+        6 & Shirt\\
+        7 & Sneaker\\
+        8 & Bag\\
+        9 & Ankle boot\\
+        \hline
+    \end{tabular}
+    \caption{Label Catagories}
+    \label{tab:my_label}
+\end{table}

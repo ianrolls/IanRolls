@@ -1,0 +1,25 @@
+
+% The \section{} command formats and sets the title of this
+% section. We'll deal with labels later.
+\section{Introduction}
+\label{sec:intro}
+
+ Clothing classification is an extremely useful tool for e-commerce, as it could be used by companies to create filterable tags for their website, identify and sort clothing in a shipping warehouse, or to break out data by clothing category. This would replace the need for humans to manually classify items and could reduce a company's labor costs while increasing efficiency.
+
+Recent work in the field of clothing classification utilizes neural networks, deep learning, and random forests to classify clothing in photos involving a human subject wearing a particular garment or garments. These techniques are needed to isolate the clothing from the person and the background to focus and identify the garment itself. Bossard et al. uses random forests as their primary classification tool, and had varying results based on what aspect of the clothing they were classifying. For "looks," the model had an accuracy of $\sim$72\% whereas the accuracy for "styles" had an accuracy of $\sim$37\% with the rest of the metrics somewhere in the middle \cite{eth_biwi_00974}. Zhou et al. uses a neural network model for clothing classification, notably using advanced feature extraction techniques to provide the model with relevant information. They train a separate neural network to extract features from a given image which makes for a more dynamic, generally applicable model that can process noisy images. The main neural network itself is relatively standard, including an L1 regularization and an optimization algorithm for improved gradient descent. Their model ended up with an F1 score of $\sim$0.93 \cite{Zhou}. Both papers use the exact same dataset and their feature extraction techniques are almost identical. This likely means that the neural network is a better learning model than the random forest model for predicting clothing labels.
+
+
+
+% Citations: As you can see above, you create a citation by using the
+% \cite{} command. Inside the braces, you provide a "key" that is
+% uniue to the paper/book/resource you are citing. How do you
+% associate a key with a specific paper? You do so in a separate bib
+% file --- for this document, the bib file is called
+% project1.bib. Open that file to continue reading...
+
+% Note that merely hitting the "return" key will not start a new line
+% in LaTeX. To break a line, you need to end it with \\. To begin a 
+% new paragraph, end a line with \\, leave a blank
+% line, and then start the next line (like in this example).
+
+
