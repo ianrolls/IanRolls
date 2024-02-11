@@ -2,7 +2,7 @@
 Hi, I'm a recent computer science graduate working on some personal projects and looking for work.
 This is my personal Repo containing all of my projects. Hope you enjoy!
 
-Project Map:
+<h2> Project Map </h2>
 
 ML PROJECTS: <br />
 *Note - each corresponding folder contains any files and diagrams used. To see the main paper/project, go to the PDF/Python file that has the same name as the folder
