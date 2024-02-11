@@ -6,7 +6,6 @@ This is my personal Repo containing all of my projects. Hope you enjoy!
 
 <h3> ML PROJECTS: <br />
 *Note - each corresponding folder contains any files and diagrams used. To see the main paper/project, go to the PDF/Python file that has the same name as the folder </h3>
---------------------------------------------------------------------
 
 1. WineClassification - Using chemical data and tasting quality ratings on wines to predict wine quality from chemical properties
   - Created linear and logistic regression models as well as L1/L2 regularization technique (Ridge and LASSO)
