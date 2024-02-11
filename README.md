@@ -5,7 +5,9 @@ This is my personal Repo containing all of my projects. Hope you enjoy!
 Project Map:
 
 ML PROJECTS: 
-*Note - each corresponding folder contains any files and diagrams used. To see the main paper/project, go to the PDF/
+*Note - each corresponding folder contains any files and diagrams used. To see the main paper/project, go to the PDF/Python file that has the same name as the folder
+--------------------------------------------------------------------
+
 1. Wine Classification - project in my ML class where we used chemical data and tasting quality ratings on wines to predict wine quality from chemical properties
   - Used linear and logistic regression as well as L1/L2 regularization technique (Ridge and LASSO)
 2. Clothing classification - project in my ML class where I used the Fashion MNST dataset to classify articles of clothing based on their image
