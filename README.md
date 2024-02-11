@@ -4,7 +4,7 @@ This is my personal Repo containing all of my projects. Hope you enjoy!
 
 Project Map:
 
-ML PROJECTS: 
+ML PROJECTS: <br />
 *Note - each corresponding folder contains any files and diagrams used. To see the main paper/project, go to the PDF/Python file that has the same name as the folder
 --------------------------------------------------------------------
 
