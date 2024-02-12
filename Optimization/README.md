@@ -1,0 +1,3 @@
+# BART OPTIMIZATION
+
+<h4> The PDF file contains the LaTeX write-up with all information on the project. The csv files contain all of our data, with "linedata.csv" containing the information for which tranist lines need to be taken to get from any one station to another. "ridedata.csv" contains all ridership numbers from one station to another. Finally, the ipynb file contains all of our code for the project. </h4>
