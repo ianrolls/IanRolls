@@ -16,7 +16,7 @@ We used genetic data from ~3000 patients to predict cancer type across 7 cancers
 <h4> 4. BiasesInCreditRiskClassification </h4> <br />
 We used loan data to create an accurate classification model for determining if someone is likely to default. We then examined biases within the model using a multiude of different techniques to examine whether machine learning should be applied to real world scenarios. We found that even when direct data on gender was not included in a model, that data was implictly contained in other features, meaning even models that have no exposure to demographic features will likely still end up biasing towards certain demographics. <br />
 
-<h3> All above ML projects used Python (Pandas, NumPy) for data manipulation and cleaning, the SkLearn library for ML tools, and MatPlotLib/Seaborn for data visualization </h3>
+<h5> All 4 ML projects used Python (Pandas, NumPy) for data manipulation and cleaning, the SkLearn library for ML tools, and MatPlotLib/Seaborn for data visualization </h5>
 
 <h4> 5. Mask_CycleGAN </h4> <br />
 Davidson Hackathon project which won 1st prize for best use of machine learning. Our group used TensorFlow to create a generative adversarial network that would take an image of someone with a mesk on and generate a face beneath. We used an open source Kaggle dataset containing thousands of images with corresponding photos of people with/without a mask on. Although we werent given proper time and resources to fully train our model, we created an overfitted proof of concept. <br />
