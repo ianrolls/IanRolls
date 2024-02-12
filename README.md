@@ -7,14 +7,16 @@ This is my personal Repo containing all of my projects. Hope you enjoy!
 <h3> ML PROJECTS: <br />
 *Note - each corresponding folder contains any files and diagrams used. To see the main paper/project, go to the PDF/Python file that has the same name as the folder </h3>
 
-<h4> 1. WineClassification </h4>
-We used chemical data and tasting quality ratings on wines to predict wine quality from chemical properties. We developed linear and logistic regression models as well as utilizing L1/L2 regularization techniques (Ridge and LASSO).
-<h4> 2. ClothingClassification 
-I used the Fashion MNST dataset to classify articles of clothing based on their image. I implemented a Canny edge detector filter for additional feature selection and developed KNN and Logistic Regression models
-3. CancerModel - Using genetic data from ~3000 patients to predict cancer type across 7 cancers
-  * Created a variety of models, including SVM, Random Forest, Linear SVM, SGG, KNN, and a Linear Neural Net
-4. BiasesInCreditRiskClassification - Using loan data to create an accurate classification model for determining if someone is likely to default. We then examined biases within the model using a multiude of different techniques to examine whether machine learning should be applied to real world scenarios. We found that even when direct data on gender was not included in a model, that data was implictly contained in other features, meaning even models that have no exposure to demographic features will likely still end up biasing towards certain demographics.
-All above ML projects used Python (Pandas, NumPy) for data manipulation and cleaning, the SkLearn library for ML tools, and MatPlotLib/Seaborn for data visualization
+<h4> 1. WineClassification </h4> <br />
+We used chemical data and tasting quality ratings on wines to predict wine quality from chemical properties. We developed linear and logistic regression models as well as utilizing L1/L2 regularization techniques (Ridge and LASSO). <br />
+<h4> 2. ClothingClassification </h4> <br />
+I used the Fashion MNST dataset to classify articles of clothing based on their image. I implemented a Canny edge detector filter for additional feature selection and developed KNN and Logistic Regression models. <br />
+<h4> 3. CancerModel </h4> <br />
+We used genetic data from ~3000 patients to predict cancer type across 7 cancers. This involved creating a variety of models, including SVM, Random Forest, Linear SVM, SGG, KNN, and a Linear Neural Net. <br />
+<h4> 4. BiasesInCreditRiskClassification </h4> <br />
+We used loan data to create an accurate classification model for determining if someone is likely to default. We then examined biases within the model using a multiude of different techniques to examine whether machine learning should be applied to real world scenarios. We found that even when direct data on gender was not included in a model, that data was implictly contained in other features, meaning even models that have no exposure to demographic features will likely still end up biasing towards certain demographics. <br />
+
+<h3> All above ML projects used Python (Pandas, NumPy) for data manipulation and cleaning, the SkLearn library for ML tools, and MatPlotLib/Seaborn for data visualization </h3>
 
 5. Mask_CycleGAN
    * Davidson Hackathon project which won 1st prize for best use of machine learning. Our group used TensorFlow to create a generative adversarial network that would take an image of someone with a mesk on and generate a face beneath. We used an open source Kaggle dataset containing thousands of images with corresponding photos of people with/without a mask on. Although we werent given proper time and resources to fully train our model, we created an overfitted proof of concept. 
