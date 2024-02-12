@@ -14,8 +14,10 @@ This is my personal Repo containing all of my projects. Hope you enjoy!
 3. CancerModel - Using genetic data from ~3000 patients to predict cancer type across 7 cancers
   * Created a variety of models, including SVM, Random Forest, Linear SVM, SGG, KNN, and a Linear Neural Net
 4. BiasesInCreditRiskClassification - Using loan data to create an accurate classification model for determining if someone is likely to default. We then examined biases within the model using a multiude of different techniques to examine whether machine learning should be applied to real world scenarios. We found that even when direct data on gender was not included in a model, that data was implictly contained in other features, meaning even models that have no exposure to demographic features will likely still end up biasing towards certain demographics.
+All above ML projects used Python (Pandas, NumPy) for data manipulation and cleaning, the SkLearn library for ML tools, and MatPlotLib/Seaborn for data visualization
 
-All ML projects used Python (Pandas, NumPy) for data manipulation and cleaning, the SkLearn library for ML tools, and MatPlotLib/Seaborn for data visualization
+5. Mask_CycleGAN
+   * Davidson Hackathon project which won 1st prize for best use of machine learning. Our group used TensorFlow to create a generative adversarial network that would take an image of someone with a mesk on and generate a face beneath. Although we werent given proper time and resources to fully train our model, we created an overfitted proof of concept.
 
 <h3>OPTIMIZATION PROJECT:</h3>
 This project was created for a linear and discrete optimization class, my partner and I used the GurobiPy optimization software to optimize the BART transportation schedule to minimize resource cost while still properly serving every rider who wanted to access the transit network. We were able to find the optimal frequency to run trains along each line given ridership constrants, train inventory contraints, and a base constraint that every station should have a train arriving each 15m.
