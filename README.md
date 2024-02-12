@@ -1,4 +1,4 @@
-# Ian Rolls' Personal Repository
+# Ian Rolls' Project Repository
 Hi, I'm a recent computer science graduate working on some personal projects and looking for work.
 This is my personal Repo containing all of my projects. Hope you enjoy! Below is a list with a short description of some of my work. Thanks for checking it out!
 
