@@ -17,3 +17,7 @@ This is my personal Repo containing all of my projects. Hope you enjoy!
 
 <h3>OPTIMIZATION PROJECT:</h3>
 This project was created for a linear and discrete optimization class, my partner and I used the GurobiPy optimization software to optimize the BART transportation schedule to minimize resource cost while still properly serving every rider who wanted to access the transit network. We were able to find the optimal frequency to run trains along each line given ridership constrants, train inventory contraints, and a base constraint that every station should have a train arriving each 15m.
+
+<h3>DATA ANALYSIS/VISUALIZATION PROJECT</h3>
+"AgingHospitalQuality.pdf"
+Created a poster for an event at my university. I hypothesized that aging populations affected hospital quality in that a hospital in a county with an older population would be more equiped to deal with problems affecting older individuals. I used Python to merge and clean the dataset, Stata for the data analysis and some of the data visualization, and then I used QGIS to create maps to enhance visualization.
