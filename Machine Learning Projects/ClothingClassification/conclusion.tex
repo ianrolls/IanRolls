@@ -1,9 +1,0 @@
-
-\section{Conclusions}
-\label{sec:concl}
-
-Clothing classification is incredibly important for e-commerce companies or clothing brands with a digital presence. We sought to build a classification model to accurately categorize articles of clothing given an image. We used each pixel of the image as a feature as well as applying a Canny edge detection filter to extract more features. We tested a k-nearest-neighbors (KNN) approach as well as a logistic regression, and found that the KNN model was more accurate across our different feature selection methods.
-
-Furthermore, we found that a KNN model using a combined feature selection strategy of concatenating two images, one with basic unfiltered color values for each pixel and the other being the original image with a Canny edge detector applied. We found that this method was slightly more accurate than the basic color values alone. 
-
-One way that we think we can improve this model is by applying even more robust feature selection methods. The Zhou et al. paper trains a neural network to extract features from their image, which they believe was effective in boosting accuracy. This would be much more complex, but would most likely boost our model's accuracy. Additionally, our model would be much better if we edited the labels to remove ambiguity and distinguish categories better. Additionally, higher definition images would help to better distinguish small differences in each image.
